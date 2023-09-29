@@ -1,15 +1,11 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, TouchableHighlight, TouchableNativeFeedback, TouchableWithoutFeedback, View } from 'react-native'
+import React, { useEffect, useState } from 'react'
+import Navigation from './navigation'
 
 const App = () => {
-
   return (
-    <View>
-      <Text>App</Text>
-    </View>
+    <Navigation />
   )
 }
 
 export default App
-
-const styles = StyleSheet.create({})
