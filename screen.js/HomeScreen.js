@@ -1,5 +1,5 @@
 import { StyleSheet, Text, TouchableHighlight, TouchableNativeFeedback, TouchableWithoutFeedback, View } from 'react-native'
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 
 const API = 'https://jsonplaceholder.typicode.com/photos';
 
